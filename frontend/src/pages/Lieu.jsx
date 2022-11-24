@@ -6,22 +6,23 @@ import Lieux from "./Lieux";
 
 import "./Lieu.css";
 
-function Lieu() {
+function Lieu(props) {
   const [progress, setProgress] = useState(1)
-
+  const { location, character } = props;
   return (
+
     <section
       className="lieu"
-      style={{ backgroundImage: `url(${lieu[0].src})` }}
+      style={{ backgroundImage: `url(${location.src})` }}
     >
-      {progress === 1 && <div><h2>{lieu[0].name}</h2>
+      {progress === 1 && <><h2>{location.name}</h2>
         <p>
-          <span>{lieu[0].description}</span>
-        </p></div>}
+          <span>{location.description}</span>
+        </p></>}
       {progress === 2 && <div className="card">
-        <img alt="avatar" src={personages[0].src} />
-        <p>{personages[0].name}</p>
-        <p className="text-center">{personages[0].quote1}</p>
+        <img alt="avatar" src={character.src} />
+        <p>{character.name}</p>
+        <p className="text-center">{character.quote1}</p>
       </div>}
 
       {progress === 2 ? <button type="button"> <Link to="/Lieux">Retour</Link></button> : <button type="button" onClick={() => setProgress(progress + 1)}>
