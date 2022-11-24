@@ -1,5 +1,8 @@
+import { Router, Routes, Route } from "react-router-dom";
+
 import Home from "./pages/Home";
-import { Router, Routes, Route, Link } from "react-router-dom";
+import Lieu from "./pages/Lieu";
+import Lieux from "./pages/Lieux";
 
 import "./App.css";
 
@@ -18,4 +21,3 @@ function App() {
 }
 
 export default App;
-
