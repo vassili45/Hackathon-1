@@ -1,14 +1,21 @@
-import logo from "@assets/Logo.png";
-import Home from "./pages/Home";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Home from "@pages/Home";
+import Lieux from "@pages/Lieux";
 
 import "./App.css";
 
 function App() {
   return (
-    <div>
-      <img src={logo} alt="logo" className="logo" />
-      <Home />
-    </div>
+    <Router>
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Lieux" element={<Lieux />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
