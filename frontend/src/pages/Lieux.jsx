@@ -152,7 +152,7 @@ function Lieux(props) {
               onMouseEnter={() => setForetIsShown(true)}
               onMouseLeave={() => setForetIsShown(false)}
               onClick={() => {
-                handleCharacter(personages[3]);
+                handleCharacter(personages[6]);
                 handleLocation(lieu[7]);
               }}
             />
@@ -170,7 +170,7 @@ function Lieux(props) {
               onMouseEnter={() => setDevIsShown(true)}
               onMouseLeave={() => setDevIsShown(false)}
               onClick={() => {
-                handleCharacter(personages[4]);
+                handleCharacter(personages[7]);
                 handleLocation(lieu[8]);
               }}
             />
@@ -188,7 +188,7 @@ function Lieux(props) {
               onMouseEnter={() => setQuidditchIsShown(true)}
               onMouseLeave={() => setQuidditchIsShown(false)}
               onClick={() => {
-                handleCharacter(personages[5]);
+                handleCharacter(personages[8]);
                 handleLocation(lieu[9]);
               }}
             />
@@ -206,7 +206,7 @@ function Lieux(props) {
               onMouseEnter={() => setSauleIsShown(true)}
               onMouseLeave={() => setSauleIsShown(false)}
               onClick={() => {
-                handleCharacter(personages[0]);
+                handleCharacter(personages[9]);
                 handleLocation(lieu[10]);
               }}
             />

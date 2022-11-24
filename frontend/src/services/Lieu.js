@@ -41,14 +41,14 @@ const lieu = [
   },
   {
     lieu_id: 5,
-    name: "salle de potions",
+    name: "Salle des Potions",
     src: imgSallePotion,
     description:
       "Le cours de potions est l'enseignement de la préparation des potions, des élixirs et d'autres breuvages magiques.",
   },
   {
     lieu_id: 6,
-    name: "salle de métamorphose",
+    name: "Salle de métamorphose",
     src: imgMetamorphose,
     description:
       "La classe de métamorphose est le lieu où la métamorphose est enseignée aux élèves de Wizard Code School.",
@@ -62,7 +62,7 @@ const lieu = [
   },
   {
     lieu_id: 8,
-    name: "Forêt interdit",
+    name: "Forêt interdite",
     src: imgForet,
     description:
       "La Forêt interdite est une immense forêt bordant l'intérieur de l'enceinte du château Wizard Code School. Comme son nom l'indique, il est interdit aux élèves de l'école de pénétrer à l'intérieur - excepté dans le cadre de punitions ou bien encore des cours de soins aux créatures magiques. Au vu du nombre impressionnant de créatures s'étant établies dans cette forêt, il semble évident que peu d'élèves souhaiteraient s'y aventurer.",
@@ -76,7 +76,7 @@ const lieu = [
   },
   {
     lieu_id: 10,
-    name: "quidditch",
+    name: "Quidditch",
     src: imgQuidditch,
     description:
       "Le Quidditch est un célèbre sport du monde des sorciers et également l'un de leurs sports favoris. Il s'agit d'un jeu sur balai, vieux de mille ans et qui consiste en l'opposition de deux équipes de sept joueurs, chacun ayant son rôle à jouer. Les vainqueurs d'un match sont ceux ayant le plus de points à la fin d'une partie.",
