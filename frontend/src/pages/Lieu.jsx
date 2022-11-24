@@ -6,31 +6,25 @@ import personages from "@services/Personage";
 
 import "./Lieu.css";
 
-function Lieu() {
-  const [progress, setProgress] = useState(1);
+function Lieu(props) {
+  const [progress, setProgress] = useState(1)
+  const { location, character } = props;
 
   return (
+
     <section
       className="lieu"
-      style={{ backgroundImage: `url(${lieu[0].src})` }}
+      style={{ backgroundImage: `url(${location.src})` }}
     >
-      {progress === 1 && (
-        <>
-          <h2>{lieu[0].name}</h2>
-          <p>
-            <span>{lieu[0].description}</span>
-          </p>
-        </>
-      )}
-      {progress === 2 && (
-        <>
-          <div className="cardChars">
-            <img alt="avatar" src={personages[0].src} width="400px" />
-            <h3>{personages[0].name}</h3>
-          </div>
-          <p className="text-center">{personages[0].quote1}</p>
-        </>
-      )}
+      {progress === 1 && <><h2>{location.name}</h2>
+        <p>
+          <span>{location.description}</span>
+        </p></>}
+      {progress === 2 && <div className="cardChars">
+        <img alt="avatar" src={character.src} width="400px" />
+        <p>{character.name}</p>
+        <p className="text-center">{character.quote1}</p>
+      </div>}
 
       {progress === 2 ? (
         <button type="button">
