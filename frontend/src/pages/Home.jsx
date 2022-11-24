@@ -9,7 +9,6 @@ export default function Home() {
         <p className="fw-bold">Ici commence ton aventure à travers la découverte de la Wizard Code School.</p>
       </div>
       <button className="HomeButton align-self-end fw-bold" type="button">Continuer</button>
-
     </div>
   );
 }

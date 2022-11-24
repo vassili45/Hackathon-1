@@ -1,14 +1,12 @@
-
-
+import logo from "@assets/Logo.png";
 import Home from "./pages/Home";
-import Lieu from "./pages/Lieu";
-import Lieux from "./pages/Lieux";
 
 import "./App.css";
 
 function App() {
   return (
     <div>
+      <img src={logo} alt="logo" className="logo" />
       <Home />
     </div>
   );
