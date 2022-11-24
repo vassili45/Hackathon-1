@@ -1,101 +1,164 @@
-.map {
+.backgroundMap {
+  z-index: -1;
+  position: fixed;
   height: 100vh;
-
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  filter: blur(8px);
+}
 
+.map {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0 10rem;
-
-
 }
 
-.buttGrandeSalle, .buttDortoir, .buttHutte, .buttPotion, .buttMeta, .buttDefense, .buttForet, .buttDev, .buttQuidditch, .buttSaule {
-width: 1rem;
-height: 1rem;
-border: 2px solid brown ;
-border-radius: 100%;
-background-color: antiquewhite;
+.buttGrandeSalle,
+.buttDortoir,
+.buttHutte,
+.buttPotion,
+.buttMeta,
+.buttDefense,
+.buttForet,
+.buttDev,
+.buttQuidditch,
+.buttSaule {
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid brown;
+  border-radius: 100%;
+  background-color: antiquewhite;
 }
 
-.buttGrandeSalle:hover, .buttDortoir:hover, .buttHutte:hover, .buttPotion:hover, .buttMeta:hover, .buttDefense:hover, .buttForet:hover, .buttDev:hover, .buttQuidditch:hover, .buttSaule:hover {
-cursor: pointer;
-background-color: brown;
--webkit-box-shadow: 5px 7px 24px -1px #0A0A0A; 
-box-shadow: 5px 7px 24px -1px #0A0A0A;
+.buttGrandeSalle:hover,
+.buttDortoir:hover,
+.buttHutte:hover,
+.buttPotion:hover,
+.buttMeta:hover,
+.buttDefense:hover,
+.buttForet:hover,
+.buttDev:hover,
+.buttQuidditch:hover,
+.buttSaule:hover {
+  cursor: pointer;
+  background-color: brown;
+  -webkit-box-shadow: 5px 7px 24px -1px #0a0a0a;
+  box-shadow: 5px 7px 24px -1px #0a0a0a;
 }
 
 .isShown {
-visibility: visible;
-margin-left: 0.2rem;
-background: rgba(255, 255, 255, 0.8);
-border: 2px solid rgba(218, 195, 115, 0.8);
-border-radius: 50px;
-text-align: center;
-padding: 6px;
+  visibility: visible;
+  margin-left: 0.2rem;
+  background: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(218, 195, 115, 0.8);
+  border-radius: 50px;
+  text-align: center;
+  padding: 6px;
 }
 
 .isHidden {
-visibility: hidden;
+  visibility: hidden;
 }
 
-
 .GrandeSalle {
-    position: fixed;
-    top: 54%;
-    left: 46%;
+  position: fixed;
+  top: 54%;
+  left: 46%;
 }
 
 .Dortoir {
-    position: fixed;
-    top: 25%;
-    left: 55.7%;
+  position: fixed;
+  top: 25%;
+  left: 55.7%;
 }
 
 .Hutte {
-    position: fixed;
-    top: 6%;
-    left: 42%;
+  position: fixed;
+  top: 6%;
+  left: 42%;
 }
 
 .Potion {
-    position: fixed;
-    top: 44%;
-    left: 56.6%;
+  position: fixed;
+  top: 44%;
+  left: 56.6%;
 }
 
 .Meta {
-    position: fixed;
-    top: 34%;
-    left: 65%;
+  position: fixed;
+  top: 34%;
+  left: 65%;
 }
 
 .Defense {
-    position: fixed;
-    top: 48%;
-    left: 51%;
+  position: fixed;
+  top: 48%;
+  left: 51%;
 }
 
 .Foret {
-    position: fixed;
-    top: 2%;
-    left: 27%;
+  position: fixed;
+  top: 2%;
+  left: 27%;
 }
 
 .Dev {
-    position: fixed;
-    top: 86%;
-    left: 40%;
+  position: fixed;
+  top: 86%;
+  left: 40%;
 }
 
 .Quidditch {
-    position: fixed;
-    top: 1%;
-    left: 59.5%;
+  position: fixed;
+  top: 1%;
+  left: 59.5%;
 }
 
 .Saule {
-    position: fixed;
+  position: fixed;
+  top: 11.5%;
+  left: 70%;
+}
+
+@media only screen and (min-width: 1080px) {
+  .backgroundMap {
+    filter: blur(12px);
+  }
+  .map {
+    margin: 0 20rem;
+  }
+
+  .Dortoir {
+    top: 25.5%;
+    left: 57.5%;
+  }
+
+  .Potion {
+    top: 45.8%;
+    left: 58.7%;
+  }
+
+  .Meta {
+    top: 36.4%;
+    left: 68%;
+  }
+
+  .Defense {
+    top: 50%;
+    left: 52%;
+  }
+
+  .Quidditch {
+    top: 3%;
+    left: 64%;
+  }
+
+  .Saule {
     top: 11.5%;
-    left: 70%;
+    left: 77%;
+  }
 }
