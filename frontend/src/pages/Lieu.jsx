@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import lieu from "@services/Lieu";
 import personages from "@services/Personage";
-import Lieux from "./Lieux";
+// import Lieux from "./Lieux";
 
 import "./Lieu.css";
 
 function Lieu(props) {
   const [progress, setProgress] = useState(1)
   const { location, character } = props;
+
   return (
 
     <section
@@ -19,15 +20,22 @@ function Lieu(props) {
         <p>
           <span>{location.description}</span>
         </p></>}
-      {progress === 2 && <div className="card">
-        <img alt="avatar" src={character.src} />
+      {progress === 2 && <div className="cardChars">
+        <img alt="avatar" src={character.src} width="400px" />
         <p>{character.name}</p>
         <p className="text-center">{character.quote1}</p>
       </div>}
 
-      {progress === 2 ? <button type="button"> <Link to="/Lieux">Retour</Link></button> : <button type="button" onClick={() => setProgress(progress + 1)}>
-        Continuer
-      </button>}
+      {progress === 2 ? (
+        <button type="button">
+          {" "}
+          <Link to="/Lieux">Retour</Link>
+        </button>
+      ) : (
+        <button type="button" onClick={() => setProgress(progress + 1)}>
+          Continuer
+        </button>
+      )}
     </section>
   );
 }

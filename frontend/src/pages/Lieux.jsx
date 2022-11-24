@@ -32,6 +32,11 @@ function Lieux(props) {
   const [sauleIsShown, setSauleIsShown] = useState(false);
 
   return (
+
+    <>
+      <div className="backgroundMap" style={{ backgroundImage: `url(${Map})` }}>
+        {" "}
+      </div>
     <div className="map" style={{ backgroundImage: `url(${Map})` }}>
       <div className="GrandeSalle">
         <Link to={`/Lieux/1`}>
@@ -46,6 +51,7 @@ function Lieux(props) {
           Grande Salle
         </span>
       </div>
+      
       <div className="Dortoir">
         <Link to={`/Lieux/2`}>
           <input
@@ -167,7 +173,7 @@ function Lieux(props) {
           Saule Cogneur
         </span>
       </div>
-    </div>
+    </>
   );
 }
 

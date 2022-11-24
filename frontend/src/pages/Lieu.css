@@ -10,7 +10,8 @@
   gap: 1rem;
 }
 
-.lieu h2 {
+.lieu h2,
+.lieu h3 {
   background: rgba(119, 141, 221, 0.8);
   border: 2px solid rgba(218, 195, 115, 0.8);
   border-radius: 50px;
@@ -43,8 +44,27 @@
   font-weight: 500;
 }
 
+/* CARD CSS */
+.cardChars {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+
+.cardChars img {
+  background: rgba(119, 141, 221, 0.8);
+  border: 2px solid rgba(218, 195, 115, 0.8);
+  border-radius: 50px;
+}
+
+.lieu h3 {
+  margin-top: -3.5rem;
+}
+
 @media only screen and (min-width: 1080px) {
-  .lieu h2 {
+  .lieu h2,
+  .lieu h3 {
     font-size: 2.5rem;
     padding: 1.5rem 2.5rem;
   }
