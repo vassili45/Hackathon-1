@@ -1,9 +1,7 @@
-function Dialogue() {
+function Dialogue({ personnage }) {
   return (
-    <div className="card-container">
-      <img className="person-img" alt="person-img" />
-      <h3>nom du personnage</h3>
-      <p>Quote du personnage</p>
+    <div className="card">
+      <p className="text-center">{personnage.quote1}</p>
     </div>
   );
 }
