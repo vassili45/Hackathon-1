@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from "@pages/Home";
 import Lieux from "@pages/Lieux";
-// import Lieu from "@pages/Lieu";
+import Lieu from "@pages/Lieu";
 
 import "./App.css";
 
