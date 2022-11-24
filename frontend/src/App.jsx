@@ -1,3 +1,4 @@
+import logo from "@assets/logo.png";
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -10,6 +11,7 @@ function App() {
   return (
     <Router>
       <div>
+        <img src={logo} alt="logo" className="logo" />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Lieux" element={<Lieux />} />

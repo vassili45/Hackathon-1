@@ -8,7 +8,7 @@ import imgDefenseMal from "@assets/Lieux/grand_hall.jpg";
 import imgForet from "@assets/Lieux/foret.jpg";
 import imgDevAuLard from "@assets/Lieux/dev_au_lard.jpg";
 import imgQuidditch from "@assets/Lieux/quidditch.png";
-import imgSaule from "@assets/Lieux/saule.jpg";
+import imgSaule from "@assets/saule.jpg";
 
 const lieu = [
   {
