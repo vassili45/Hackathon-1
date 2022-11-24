@@ -51,7 +51,7 @@ function Lieux(props) {
           Grande Salle
         </span>
       </div>
-      
+
       <div className="Dortoir">
         <Link to={`/Lieux/2`}>
           <input
@@ -172,6 +172,7 @@ function Lieux(props) {
         <span className={sauleIsShown ? "isShown" : "isHidden"}>
           Saule Cogneur
         </span>
+      </div>
       </div>
     </>
   );
