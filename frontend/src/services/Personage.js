@@ -29,7 +29,7 @@ const personages = [
   },
   {
     personage_id: 4,
-    name: benoitGrid,
+    name: "Benoîgrid",
     src: "./assets/Benoit_Grid.png",
     quote1:
       "Grosso modo, il faut arriver à dompter le grid pour votre futur deweb-sorcier / web-developper / developper-sorcier.",
