@@ -128,10 +128,42 @@
   .backgroundMap {
     filter: blur(12px);
   }
+
+  .Dortoir {
+    top: 26%;
+    left: 58.2%;
+  }
+
+  .Potion {
+    top: 45.8%;
+    left: 59.6%;
+  }
+
+  .Meta {
+    top: 36.4%;
+    left: 70%;
+  }
+
+  .Defense {
+    top: 50%;
+    left: 52%;
+  }
+
+  .Quidditch {
+    top: 3%;
+    left: 64%;
+  }
+
+  .Saule {
+    top: 11.5%;
+    left: 77%;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
   .map {
     margin: 0 20rem;
   }
-
   .Dortoir {
     top: 25.5%;
     left: 57.5%;
