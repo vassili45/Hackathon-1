@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-// import lieu from "@services/Lieu";
-// import personages from "@services/Personage";
-// import Lieux from "./Lieux";
 
 import "./Lieu.css";
 
