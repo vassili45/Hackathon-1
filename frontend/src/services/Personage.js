@@ -4,6 +4,7 @@ import jFLupin from "@assets/Personnages/JF_Lupin.png";
 import benoitGrid from "@assets/Personnages/Benoit_Grid.png";
 import kevinPrefet from "@assets/Personnages/Kevin_Prefet.png";
 import louAnneMcGonnagal from "@assets/Personnages/Lou-Anne_McGonagall.png";
+import albusSaule from "@assets/AnthoLeBG.png";
 
 const personages = [
   {
@@ -11,7 +12,7 @@ const personages = [
     name: "Albus Gorski",
     src: albusGorski,
     quote1:
-      "Salut les BG! Vous êtres prêts pour devenir un aussi bon magicien du web que moi?",
+      "Salut les BG! Vous êtres prêts pour devenir un aussi bon sorcier du web que moi?",
   },
   {
     personage_id: 2,
@@ -45,7 +46,33 @@ const personages = [
     name: "Lou-Anne McGonnagal",
     src: louAnneMcGonnagal,
     quote1:
-      "Aujourd’hui, nous allons apprendre la métamorphosedes interfaces graphiques!",
+      "Aujourd’hui, nous allons apprendre la métamorphoses des interfaces graphiques!",
+  },
+  {
+    personage_id: 7,
+    name: "Benoîgrid",
+    src: benoitGrid,
+    quote1:
+      "Sort d'ici ! Tu n'es pas assez expérimenté ! Cette fôret est remplie de bugs !",
+  },
+  {
+    personage_id: 8,
+    name: "Kévin Prefet",
+    src: kevinPrefet,
+    quote1: "Tu viens faire quelques achats toi aussi ? ",
+  },
+  {
+    personage_id: 9,
+    name: "Lou-Anne McGonnagal",
+    src: louAnneMcGonnagal,
+    quote1:
+      "Je compte sur vous pour finir ce Kata en moins de 5 minutes ! ",
+  },
+  {
+    personage_id: 10,
+    name: "Albus Gorski",
+    src: albusGorski,
+    quote1: "Ne vous approchez jamais de cet arbre",
   },
 ];
 
