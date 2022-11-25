@@ -72,7 +72,7 @@ const personages = [
     personage_id: 10,
     name: "J-F Lupin",
     src: jFLupin,
-    quote1: "Reculer ! Le directeur viens encore de ce coincer dans le Saule cogneur",
+    quote1: "Reculer ! Le directeur vient encore de se coincer dans le Saule cogneur.",
   },
 ];
 
