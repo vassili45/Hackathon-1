@@ -33,13 +33,13 @@ const personages = [
     src: benoitGrid,
     quote1:
       "Grosso modo, il faut arriver à dompter le grid pour votre futur de dev-sorcier.",
-
   },
   {
     personage_id: 5,
     name: "Kévin Prefet",
     src: kevinPrefet,
-    quote1: "Oh désolé je ne vous avais pas vu. My bad... Le mot de passe est Caput Devonis!",
+    quote1:
+      "Oh désolé je ne vous avais pas vu. My bad... Le mot de passe est Caput Devonis!",
   },
   {
     personage_id: 6,
@@ -71,7 +71,8 @@ const personages = [
     personage_id: 10,
     name: "J-F Lupin",
     src: jFLupin,
-    quote1: "Reculer ! Le directeur vient encore de se coincer dans le Saule cogneur.",
+    quote1:
+      "Reculez ! Le directeur vient encore de se coincer dans le Saule cogneur.",
   },
 ];
 
