@@ -1,36 +1,19 @@
-import Counter from "../components/Counter";
-import logo from "../assets/logo.svg";
+import "./Home.css";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>Hello Vite + React !</p>
-
-      <Counter />
-
-      <p>
-        Edit <code>App.jsx</code> and save to test HMR updates.
-      </p>
-      <p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        {" | "}
-        <a
-          className="App-link"
-          href="https://vitejs.dev/guide/features.html"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Vite Docs
-        </a>
-      </p>
-    </header>
+    <div className="mainHomeDiv d-flex flex-column justify-content-center p-0 m-0">
+      <div className="HomeText text-center w-75 align-self-center">
+        <p className="fw-bold">Bienvenue apprenti sorcier.</p>
+        <p className="fw-bold">
+          Ici commence ton aventure à travers la découverte de la Wizard Code
+          School.
+        </p>
+      </div>
+      <button className="HomeButton align-self-end fw-bold" type="button">
+        <Link to="/Lieux">Continuer</Link>
+      </button>
+    </div>
   );
 }
