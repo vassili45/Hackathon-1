@@ -4,7 +4,6 @@ import jFLupin from "@assets/Personnages/JF_Lupin.png";
 import benoitGrid from "@assets/Personnages/Benoit_Grid.png";
 import kevinPrefet from "@assets/Personnages/Kevin_Prefet.png";
 import louAnneMcGonnagal from "@assets/Personnages/Lou-Anne_McGonagall.png";
-import albusSaule from "@assets/AnthoLeBG.png";
 
 const personages = [
   {
@@ -66,8 +65,7 @@ const personages = [
     personage_id: 9,
     name: "Lou-Anne McGonnagal",
     src: louAnneMcGonnagal,
-    quote1:
-      "Je compte sur vous pour finir ce Kata en moins de 5 minutes ! ",
+    quote1: "Je compte sur vous pour finir ce Kata en moins de 5 minutes ! ",
   },
   {
     personage_id: 10,
