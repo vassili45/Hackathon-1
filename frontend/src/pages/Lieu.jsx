@@ -18,7 +18,7 @@ function Lieu(props) {
       {progress === 1 && (
         <>
           <h2>{location.name}</h2>
-          <p>
+          <p className="lieuDesc">
             <span>{location.description}</span>
           </p>
         </>

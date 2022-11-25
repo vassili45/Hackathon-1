@@ -65,28 +65,28 @@ const lieu = [
     name: "Forêt interdite",
     src: imgForet,
     description:
-      "La Forêt interdite est une immense forêt bordant l'intérieur de l'enceinte du château Wizard Code School. Comme son nom l'indique, il est interdit aux élèves de l'école de pénétrer à l'intérieur - excepté dans le cadre de punitions ou bien encore des cours de soins aux créatures magiques. Au vu du nombre impressionnant de créatures s'étant établies dans cette forêt, il semble évident que peu d'élèves souhaiteraient s'y aventurer.",
+      "La forêt interdite est un lieu néfaste et dangereux. De nombreux bugs se sont perdus dans celle-ci et il ne serait peut-être pas judicieux d'aller à leur rencontre.",
   },
   {
     lieu_id: 9,
     name: "Dev au lard",
     src: imgDevAuLard,
     description:
-      "Dev-au-Lard à n'avoir que des sorciers pour habitants. Ce village est le terminus du Wizard Code School Express et regroupe certains lieux connus dans le monde entier, notamment la Cabane hurlante.",
+      "Dev-au-Lard est le seul village à n'avoir que des sorciers pour habitants. Ce village est le terminus du Wizard Code School Express et regroupe certains lieux connus dans le monde entier, notamment la Cabane hurlante.",
   },
   {
     lieu_id: 10,
-    name: "Quidditch",
+    name: "Kata",
     src: imgQuidditch,
     description:
-      "Le Quidditch est un célèbre sport du monde des sorciers et également l'un de leurs sports favoris. Il s'agit d'un jeu sur balai, vieux de mille ans et qui consiste en l'opposition de deux équipes de sept joueurs, chacun ayant son rôle à jouer. Les vainqueurs d'un match sont ceux ayant le plus de points à la fin d'une partie.",
+      "Les Kata sont le sport favori du monde des sorciers. Pratiqué au sein de l'école sur le terrain de Quid Wars, il s'agit d'un jeu sur balai, où le but est d'arriver à attraper la fonction, tout en évitant les loopards.",
   },
   {
     lieu_id: 11,
     name: "Saule cogneur",
     src: imgSaule,
     description:
-      "Le Saule cogneur (  Angl.  Whomping Willow ) est un arbre magique. Ce saule, très capricieux, a tendance à frapper avec ses longues branches les êtres vivants, humains ou créatures, s'approchant trop près de lui.",
+      "Le Saule cogneur est un arbre magique. Ce saule, très capricieux, a tendance à frapper avec ses longues branches les êtres vivants, humains ou créatures, s'approchant trop près de lui.",
   },
 ];
 

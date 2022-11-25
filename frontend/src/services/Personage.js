@@ -19,7 +19,7 @@ const personages = [
     name: "Rogue Richard",
     src: rogueRichard,
     quote1:
-      "Vous ne savez vraiment pas utilisez vos API. Décevant... Essayez plutôt Axios API la prochaine fois comme sortilège!",
+      "Pour utiliser une API il faut y aller step by step... Tac! Tac! Tac! Hum décevant... Essayez plutôt Axios API la prochaine fois comme sortilège!",
   },
   {
     personage_id: 3,
@@ -33,33 +33,34 @@ const personages = [
     name: "Benoîgrid",
     src: benoitGrid,
     quote1:
-      "Grosso modo, il faut arriver à dompter le grid pour votre futur dev-sorcier.",
+      "Grosso modo, il faut arriver à dompter le grid pour votre futur de dev-sorcier.",
+
   },
   {
     personage_id: 5,
     name: "Kévin Prefet",
     src: kevinPrefet,
-    quote1: "Le mot de passe est Caput Devonis!",
+    quote1: "Oh désolé je ne vous avais pas vu. My bad... Le mot de passe est Caput Devonis!",
   },
   {
     personage_id: 6,
     name: "Lou-Anne McGonnagal",
     src: louAnneMcGonnagal,
     quote1:
-      "Aujourd’hui, nous allons apprendre la métamorphoses des interfaces graphiques!",
+      "Aujourd’hui, nous allons apprendre la métamorphose des interfaces graphiques!",
   },
   {
     personage_id: 7,
-    name: "Benoîgrid",
-    src: benoitGrid,
+    name: "Kévin Prefet",
+    src: kevinPrefet,
     quote1:
       "Sort d'ici ! Tu n'es pas assez expérimenté ! Cette fôret est remplie de bugs !",
   },
   {
     personage_id: 8,
-    name: "Kévin Prefet",
-    src: kevinPrefet,
-    quote1: "Tu viens faire quelques achats toi aussi ? ",
+    name: "Benoîgrid",
+    src: benoitGrid,
+    quote1: "Une bonne petite Devaubeure, y'a rien d'meilleur!",
   },
   {
     personage_id: 9,
@@ -70,9 +71,9 @@ const personages = [
   },
   {
     personage_id: 10,
-    name: "Albus Gorski",
-    src: albusGorski,
-    quote1: "Ne vous approchez jamais de cet arbre",
+    name: "J-F Lupin",
+    src: jFLupin,
+    quote1: "Reculer ! Le directeur vient encore de se coincer dans le Saule cogneur.",
   },
 ];
 
