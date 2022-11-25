@@ -50,16 +50,16 @@ const personages = [
   },
   {
     personage_id: 7,
-    name: "Benoîgrid",
-    src: benoitGrid,
+    name: "Kévin Prefet",
+    src: kevinPrefet,
     quote1:
       "Sort d'ici ! Tu n'es pas assez expérimenté ! Cette fôret est remplie de bugs !",
   },
   {
     personage_id: 8,
-    name: "Kévin Prefet",
-    src: kevinPrefet,
-    quote1: "Tu viens faire quelques achats toi aussi ? ",
+    name: "Benoîgrid",
+    src: benoitGrid,
+    quote1: "Une bonne petite Devaubeure, y'a rien d'meilleur!",
   },
   {
     personage_id: 9,
@@ -70,9 +70,9 @@ const personages = [
   },
   {
     personage_id: 10,
-    name: "Albus Gorski",
-    src: albusGorski,
-    quote1: "Ne vous approchez jamais de cet arbre",
+    name: "J-F Lupin",
+    src: jFLupin,
+    quote1: "Reculer ! Le directeur vient encore de se coincer dans le Saule cogneur.",
   },
 ];
 
