@@ -3,8 +3,8 @@ import imgHutte from "@assets/Lieux/Hagrids-home.jpg";
 import imgDortoir from "@assets/Lieux/gryfondor_dormitory.jpg";
 import imgTrain from "@assets/Lieux/Poudlard_Express.jpg";
 import imgSallePotion from "@assets/Lieux/salle_des_potions.jpg";
-import imgMetamorphose from "@assets/Lieux/grand_hall.jpg";
-import imgDefenseMal from "@assets/Lieux/grand_hall.jpg";
+import imgMetamorphose from "@assets/Lieux/salle_Meta.jpg";
+import imgDefenseMal from "@assets/Lieux/salle_BDD.jpg";
 import imgForet from "@assets/Lieux/foret.jpg";
 import imgDevAuLard from "@assets/Lieux/dev_au_lard.jpg";
 import imgQuidditch from "@assets/Lieux/quidditch.png";
@@ -58,7 +58,7 @@ const lieu = [
     name: "Salle de défense contre les BDD",
     src: imgDefenseMal,
     description:
-      "La classe de défense contre les forces du Mal est le lieu où cette matière est enseignée aux élèves de Wizard Code School.",
+      "La classe de défense contre les BDD est le lieu où cette matière est enseignée aux élèves de Wizard Code School.",
   },
   {
     lieu_id: 8,

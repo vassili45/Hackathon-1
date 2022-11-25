@@ -1,6 +1,20 @@
+@font-face {
+  font-family: "Dumbledore";
+  src: url(@assets/dum1.ttf);
+}
+
+* {
+  font-family: "Dumbledore", sans-serif;
+  }
+
 body {
   margin: 0;
   overflow: hidden;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: black;
 }
 
 /* LOGO */
@@ -16,3 +30,4 @@ body {
     left: 0;
   }
 }
+
