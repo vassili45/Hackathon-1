@@ -1,3 +1,14 @@
+.AnthoPic {
+  position: fixed;
+  left: 45%;
+  z-index: 1;
+}
+
+.AnthoPic img {
+  width: 280px;
+  transform: rotate(180deg);
+}
+
 .lieu {
   height: 100vh;
   padding: 2rem;
@@ -16,6 +27,7 @@
   padding: 1rem;
   margin: 0;
   text-align: center;
+  z-index: 2;
 }
 
 .lieu h2 {
@@ -34,6 +46,7 @@
   grid-column: 2 / 6;
   grid-row: 2 / 4;
   height: fit-content;
+  z-index: 2;
 }
 
 .lieu .lieuDesc {
@@ -71,6 +84,7 @@
   border: 2px solid rgba(218, 195, 115, 0.8);
   border-radius: 50px;
   width: 250px;
+  z-index: 2;
 }
 
 .lieu h3 {
@@ -78,6 +92,14 @@
 }
 
 @media only screen and (min-width: 1080px) {
+  .AnthoPic {
+    left: 55%;
+  }
+
+  .AnthoPic img {
+    width: 580px;
+  }
+
   .lieu {
     display: flex;
     flex-direction: column;
@@ -117,6 +139,10 @@
 }
 
 @media only screen and (min-width: 1500px) {
+  .AnthoPic {
+    left: 60%;
+  }
+
   .cardChars img {
     width: 80%;
   }
