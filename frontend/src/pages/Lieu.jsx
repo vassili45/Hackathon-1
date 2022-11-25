@@ -27,7 +27,7 @@ function Lieu(props) {
       {progress === 2 && (
         <>
           <div className="cardChars">
-            <img alt="avatar" src={character.src} width="400px" />
+            <img alt="avatar" src={character.src} />
             <h3>{character.name}</h3>
           </div>
           <p className="text-center">{character.quote1}</p>
