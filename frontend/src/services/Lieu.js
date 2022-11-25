@@ -55,7 +55,7 @@ const lieu = [
   },
   {
     lieu_id: 7,
-    name: "Salle de défense contre les forces du mal",
+    name: "Salle de défense contre les BDD",
     src: imgDefenseMal,
     description:
       "La classe de défense contre les forces du Mal est le lieu où cette matière est enseignée aux élèves de Wizard Code School.",
