@@ -140,7 +140,7 @@ function Lieux(props) {
           </Link>
           <p className={defenseIsShown ? "isShown" : "isHidden"}>
             Salle de Défense <br />
-            contre les Forces du Mal
+            contre les BDD
           </p>
         </div>
 

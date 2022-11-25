@@ -33,7 +33,8 @@ const personages = [
     name: "Benoîgrid",
     src: benoitGrid,
     quote1:
-      "Grosso modo, il faut arriver à dompter le grid pour votre futur de web-sorcier / web-developper / developper-sorcier.",
+      "Grosso modo, il faut arriver à dompter le grid pour votre futur de dev-sorcier.",
+
   },
   {
     personage_id: 5,
