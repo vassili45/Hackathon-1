@@ -18,7 +18,7 @@ const personages = [
     name: "Rogue Richard",
     src: rogueRichard,
     quote1:
-      "Vous ne savez vraiment pas utilisez vos API. Décevant... Essayez plutôt Axios API la prochaine fois comme sortilège!",
+      "Pour utiliser une API il faut y aller step by step... Tac! Tac! Tac! Hum décevant... Essayez plutôt Axios API la prochaine fois comme sortilège!",
   },
   {
     personage_id: 3,
@@ -32,20 +32,20 @@ const personages = [
     name: "Benoîgrid",
     src: benoitGrid,
     quote1:
-      "Grosso modo, il faut arriver à dompter le grid pour votre futur deweb-sorcier / web-developper / developper-sorcier.",
+      "Grosso modo, il faut arriver à dompter le grid pour votre futur de web-sorcier / web-developper / developper-sorcier.",
   },
   {
     personage_id: 5,
     name: "Kévin Prefet",
     src: kevinPrefet,
-    quote1: "Le mot de passe est Caput Devonis!",
+    quote1: "Oh désolé je ne vous avais pas vu. My bad... Le mot de passe est Caput Devonis!",
   },
   {
     personage_id: 6,
     name: "Lou-Anne McGonnagal",
     src: louAnneMcGonnagal,
     quote1:
-      "Aujourd’hui, nous allons apprendre la métamorphosedes interfaces graphiques!",
+      "Aujourd’hui, nous allons apprendre la métamorphose des interfaces graphiques!",
   },
 ];
 
