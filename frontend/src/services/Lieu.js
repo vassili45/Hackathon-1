@@ -76,10 +76,10 @@ const lieu = [
   },
   {
     lieu_id: 10,
-    name: "Kata",
+    name: "Quid Wars",
     src: imgQuidditch,
     description:
-      "Les Kata sont le sport favori du monde des sorciers. Pratiqué au sein de l'école sur le terrain de Quid Wars, il s'agit d'un jeu sur balai, où le but est d'arriver à attraper la fonction, tout en évitant les loopards.",
+      "Les Quid Wars sont le sport favori du monde des sorciers. Pratiqué au sein de l'école sur le terrain de Quid Wars, il s'agit d'un jeu sur balai, où le but est d'arriver à attraper la fonction, tout en évitant les loopards.",
   },
   {
     lieu_id: 11,
