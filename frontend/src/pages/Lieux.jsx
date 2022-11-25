@@ -194,7 +194,7 @@ function Lieux(props) {
             />
           </Link>
           <span className={quidditchIsShown ? "isShown" : "isHidden"}>
-            Terrain de Quidditch
+            Terrain de Quid Wars
           </span>
         </div>
 
